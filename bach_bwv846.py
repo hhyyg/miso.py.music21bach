@@ -1,7 +1,5 @@
 #%%
 from music21 import note,stream,corpus,chord,environment,converter,midi
-from pyknon.genmidi import Midi
-from pyknon.music import NoteSeq, Note
 
 #%%
 bwv846 = corpus.parse('bach/bwv846')
