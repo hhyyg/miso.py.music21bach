@@ -1,2 +1,2 @@
-music21
-matplotlib
+music21==5.5.0
+matplotlib==3.0.2
