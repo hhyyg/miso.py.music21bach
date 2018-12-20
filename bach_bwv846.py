@@ -38,8 +38,8 @@ bwv846.measures(11, 16).show()
 
 #%%
 f = bwv846.parts[0].flat
-note16count = [note for note in f.notes if note.quarterLength == 0.25]
-len(note16count)
+right16notes = [note for note in f.notes if note.quarterLength == 0.25]
+len(right16notes)
 
 #%%
 bwv846 = corpus.parse('bach/bwv846')
