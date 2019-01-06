@@ -10,10 +10,6 @@ stream1.show()
 #%%
 stream1.show('midi')
 
-#%% 
+#%%
 s = converter.parse('tinyNotation: 4/4 e8 e8 r e8 r c8 e8 r g4 r G4 r')
 s.show()
-
-
-
-
